@@ -17,7 +17,7 @@
 
 ### Project video
 [![Project video]()](https://github.com/OmarAdelShalaan/Elevator-Voice-Control-System/blob/main/Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.mp4)
-
+![Project](https://drive.google.com/file/d/1uxXVeBpGNxIKDnRkVT1cfsh58tJjX1Al/view?usp=share_link)
 
 ### Videos
 	![شاهد: مصعد يعمل بالصوت للوقاية من انتشار فيروس كورونا الجديد](https://www.youtube.com/watch?v=gGIQCbEHh-c&ab_channel=euronews%28%D8%B9%D9%80%D9%80%D8%B1%D8%A8%D9%8A%29)
