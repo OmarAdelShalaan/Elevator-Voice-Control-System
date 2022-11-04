@@ -19,8 +19,8 @@
 
 ### Videos
 	[شاهد: مصعد يعمل بالصوت للوقاية من انتشار فيروس كورونا الجديد]
-	(https://www.youtube.com/watch?v=gGIQCbEHh-c&ab_channel=euronews%28%D8%B9%D9%80%D9%80%D8%B1%D8%A8%D9%8A%29)
+	[Link](https://www.youtube.com/watch?v=gGIQCbEHh-c&ab_channel=euronews%28%D8%B9%D9%80%D9%80%D8%B1%D8%A8%D9%8A%29)
 	[كاميرا تسجل رجل يبصق على ازرار المصعد ، ليصيب الاخرين بفيروس كورونا]
-	(https://www.youtube.com/watch?v=JjaJGuBcEOg&ab_channel=SpartacusTv)
+	[Link](https://www.youtube.com/watch?v=JjaJGuBcEOg&ab_channel=SpartacusTv)
 	[تريندينغ الآن | يبصقون على أزرار المصعد لنقل العدوى بفيروس كورونا]
-	(https://www.youtube.com/watch?v=HIHEkZ1J3_4&ab_channel=AlAanTV%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86%D8%A7%D9%84%D8%A2%D9%86)
+	[Link](https://www.youtube.com/watch?v=HIHEkZ1J3_4&ab_channel=AlAanTV%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86%D8%A7%D9%84%D8%A2%D9%86)
