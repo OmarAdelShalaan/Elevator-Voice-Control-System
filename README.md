@@ -12,3 +12,10 @@
     to have an alternative to using the elevator without pressing the control buttons, so a lot of
     people moved to change the control panel from controlling using buttons and touch to 
     controlling by voice
+
+#### Hardware
+	- Microcontroller (Arduino)
+	- Bluetooth Module HC-05
+	- 7447 with 7 segment display
+	- Keypad
+	- Arrow LED Display
