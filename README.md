@@ -35,9 +35,6 @@
 	
 	
 
-
-[![video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_1.jpg)](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator.mp4)
-
-https://drive.google.com/file/d/1pDFWJa4fmocL0kSVUzYNoXRXiSIBUsot/view?usp=sharing
-
 [![video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_1.jpg)](https://drive.google.com/file/d/1pDFWJa4fmocL0kSVUzYNoXRXiSIBUsot/view?usp=sharing)
+
+[![video](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.jpg)](https://drive.google.com/file/d/1uxXVeBpGNxIKDnRkVT1cfsh58tJjX1Al/view?usp=sharing)
