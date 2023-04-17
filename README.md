@@ -32,3 +32,8 @@
 	- [](./Videos/Voice_Controlled_Elevator_in_China.mp4)
 	- [](./Videos/Some_people_spit_on_the_elevator_1.mp4)
 	- [](./Videos/Some_people_spit_on_the_elevator_1.mp4)
+	
+	
+
+
+[![video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_1.jpg)](Voice_Controlled_Elevator.mp4)
