@@ -13,8 +13,13 @@
     controlling by voice
 
 #### Software
+<<<<<<< HEAD
 - ATmega ([Code](./Voice_Controlled_Elevator_with_Atmega32/GccApplication1/GccApplication1)) ([Video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator.mp4))
 - Arduino([Code](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.ino))([Video](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.mp4))
+=======
+	- ATmega ([Code](./Voice_Controlled_Elevator_with_Atmega32/GccApplication1/GccApplication1)) ([Video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator.mp4))
+	- Arduino([Code](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.ino))([Video](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.mp4))
+>>>>>>> 510adee96bc2307b243fc858f69d8edd00acc041
 
 #### Hardware
 	- Microcontroller ( ATmega32 and Arduino )
