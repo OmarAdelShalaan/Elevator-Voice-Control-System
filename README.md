@@ -24,8 +24,8 @@
 	- Keypad
 	- Arrow LED Display or DC Motor
 ### Proteus
-	- [proteus file](./protues) 
-	- [![video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_1.jpg)](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator.mp4)
+	- ![Voice_Controlled_Elevator_1](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_1.jpg) 
+	- ![Voice_Controlled_Elevator_2](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_2.jpg) 
 	
 	
 ### Videos
