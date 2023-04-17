@@ -19,6 +19,9 @@ Arduino
 ([Code](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.ino))([Video](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.mp4))
 
 
+### Layered Architecture 
+![Layered Architecture](./Voice_Controlled_Elevator_with_Atmega32/Layered_Architecture.jpg)
+
 #### Hardware
 	- Microcontroller ( ATmega32 and Arduino )
 	- Voice Recognition Module v3
