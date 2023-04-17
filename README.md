@@ -1,7 +1,7 @@
 # Elevator Voice Control System
 ## Graduation project from the Faculty of Engineering, Alexandria University
 
-# Elevator Voice Control System With Arduino
+# Elevator Voice Control System With ATmega32
 
 ### Description
     After the Coronavirus swept the world and infected many, many people and died from this virus 
@@ -12,22 +12,23 @@
     people moved to change the control panel from controlling using buttons and touch to 
     controlling by voice
 
+#### Software
+	- ATmega  [Code](./Voice_Controlled_Elevator_with_Atmega32/GccApplication1/GccApplication1)  [Video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator.mp4)
+	- Arduino [Code](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.ino) [Video](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.mp4)
+
 #### Hardware
-	- Microcontroller (Arduino)
-	- Bluetooth Module HC-05
+	- Microcontroller ( ATmega32 and Arduino )
+	- Voice Recognition Module v3
+	- Bluetooth Module HC-05 
 	- 7447 with 7 segment display
 	- Keypad
-	- Arrow LED Display
-
+	- Arrow LED Display or DC Motor
+### Proteus
+	- [proteus file](./protues) 
+	- [![video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_1.jpg)](Voice_Controlled_Elevator.mp4)
+	
+	
 ### Videos
-	[شاهد: مصعد يعمل بالصوت للوقاية من انتشار فيروس كورونا الجديد]
-
-[Link](https://www.youtube.com/watch?v=gGIQCbEHh-c&ab_channel=euronews%28%D8%B9%D9%80%D9%80%D8%B1%D8%A8%D9%8A%29)
-	
-	[كاميرا تسجل رجل يبصق على ازرار المصعد ، ليصيب الاخرين بفيروس كورونا]
-
-[Link](https://www.youtube.com/watch?v=JjaJGuBcEOg&ab_channel=SpartacusTv)
-	
-	[تريندينغ الآن | يبصقون على أزرار المصعد لنقل العدوى بفيروس كورونا]
-
-[Link](https://www.youtube.com/watch?v=HIHEkZ1J3_4&ab_channel=AlAanTV%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86%D8%A7%D9%84%D8%A2%D9%86)
+	- [](./Videos/Voice_Controlled_Elevator_in_China.mp4)
+	- [](./Videos/Some_people_spit_on_the_elevator_1.mp4)
+	- [](./Videos/Some_people_spit_on_the_elevator_1.mp4)
