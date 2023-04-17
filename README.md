@@ -14,9 +14,9 @@
 
 #### Software
 - ATmega 
-([Code](./Voice_Controlled_Elevator_with_Atmega32/GccApplication1/GccApplication1)) ([Video](https://drive.google.com/file/d/1pDFWJa4fmocL0kSVUzYNoXRXiSIBUsot/view?usp=sharing))
+([Code](./Voice_Controlled_Elevator_with_Atmega32/GccApplication1/GccApplication1))  ([Video](https://drive.google.com/file/d/1pDFWJa4fmocL0kSVUzYNoXRXiSIBUsot/view?usp=sharing))
 - Arduino
-([Code](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.ino))([Video](https://drive.google.com/file/d/1uxXVeBpGNxIKDnRkVT1cfsh58tJjX1Al/view?usp=sharing))
+([Code](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.ino))  ([Video](https://drive.google.com/file/d/1uxXVeBpGNxIKDnRkVT1cfsh58tJjX1Al/view?usp=sharing))
 
 
 #### Hardware
