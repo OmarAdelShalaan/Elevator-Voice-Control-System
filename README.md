@@ -25,7 +25,7 @@
 	- Arrow LED Display or DC Motor
 ### Proteus
 	- [proteus file](./protues) 
-	- [![video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_1.jpg)](Voice_Controlled_Elevator.mp4)
+	- [![video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_1.jpg)](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator.mp4)
 	
 	
 ### Videos
@@ -36,4 +36,4 @@
 	
 
 
-[![video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_1.jpg)](Voice_Controlled_Elevator.mp4)
+[![video](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator_1.jpg)](./Voice_Controlled_Elevator_with_Atmega32/Voice_Controlled_Elevator.mp4)
