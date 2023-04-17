@@ -1,7 +1,7 @@
 # Elevator Voice Control System
 ## Graduation project from the Faculty of Engineering, Alexandria University
 
-# Elevator Voice Control System With ATmega32
+## Elevator Voice Control System 
 
 ### Description
     After the Coronavirus swept the world and infected many, many people and died from this virus 
@@ -12,7 +12,7 @@
     people moved to change the control panel from controlling using buttons and touch to 
     controlling by voice
 
-#### Software
+### Software
 - ATmega 
 ([Code](./Voice_Controlled_Elevator_with_Atmega32/GccApplication1/GccApplication1))  ([Video](https://drive.google.com/file/d/1pDFWJa4fmocL0kSVUzYNoXRXiSIBUsot/view?usp=sharing))
 - Arduino
@@ -22,7 +22,7 @@
 ### Layered Architecture 
 ![Layered Architecture](./Voice_Controlled_Elevator_with_Atmega32/Layered_Architecture.jpg)
 
-#### Hardware
+### Hardware
 	- Microcontroller ( ATmega32 and Arduino )
 	- Voice Recognition Module v3
 	- Bluetooth Module HC-05 
