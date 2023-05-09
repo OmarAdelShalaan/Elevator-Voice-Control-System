@@ -8,8 +8,6 @@
 
 #include "DIO.h"
 
-
-
 void DIO_init_pin( portx PORTX, uint8_t PX, dirction in_out )
 {
     switch( PORTX )

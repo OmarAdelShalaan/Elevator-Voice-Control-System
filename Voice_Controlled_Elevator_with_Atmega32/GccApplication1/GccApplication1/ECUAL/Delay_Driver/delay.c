@@ -9,9 +9,7 @@
 
 void delay()
 {
-    //TCCR0 = 0b01001111; //01001111
     uint32_t count = 0;
-    //TCNT0 = 0x01;
     Timer0_write(0x01);
     while(1)
     {
@@ -94,7 +92,6 @@ void delay_ms(uint32_t Time_delay)
     if( T_max_delay >= Time_delay )
     {
         Timer_initial_value = ( ( T_max_delay - Time_delay ) / T_tick );
-        //TCNT0 = Timer_initial_value;
         Timer0_write( Timer_initial_value );
         while(1)
         {
@@ -106,7 +103,6 @@ void delay_ms(uint32_t Time_delay)
     }
     N_overflows = ( ( Time_delay / T_max_delay ) + 1.0 )  ;
     Timer_initial_value = 256.0 - ( ( Time_delay / T_tick ) / N_overflows );
-    //TCNT0 = Timer_initial_value;
     Timer0_write( Timer_initial_value );
     
 	F_CPU_counter++;

@@ -11,9 +11,6 @@
 
 #include "../../Utilities/register.h"
 
-
-
-
 #define MICRO_UNIT 1000000
 #define MILI_UNIT ( MICRO_UNIT / 1000 )
 #define F_CPU	   8000000
@@ -62,21 +59,6 @@ void Timer0_CTC_mode( CTC_mode_State State );
 void Timer0_CTC_write_compare_value(uint8_t compare_value);
 bool Timer0_CTC_occur();
 
-
-
 #endif /* TIMER_H_ */
 
-/*
-from Data Sheet
-TCNT0 for accessing Timer/Counter0 counter value and so on.
-in the Timer/Counter Control Register (TCCR0). For details on clock sources and prescaler
-BOTTOM The counter reaches the BOTTOM when it becomes 0x00.
-MAX The counter reaches its MAXimum when it becomes 0xFF (decimal 255).
-TOP The counter reaches the TOP when it becomes equal to the highest
-	value in the count sequence. The TOP value can be assigned to be the
-	fixed value 0xFF (MAX) or the value stored in the OCR0 Register. The
-	assignment is dependent on the mode of operation.
-The counting sequence is determined by the setting of the WGM01 and WGM00 bits located in
-the Timer/Counter Control Register (TCCR0).
-The Timer/Counter Overflow (TOV0) Flag
-*/
+

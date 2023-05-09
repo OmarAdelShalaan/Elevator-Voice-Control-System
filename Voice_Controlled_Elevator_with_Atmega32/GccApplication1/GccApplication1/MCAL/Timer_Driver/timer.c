@@ -5,7 +5,7 @@
  *  Author: Omar
  */
 
-#include "timer.h"
+
 
 
 //TCNT0
@@ -17,7 +17,7 @@ Timer_initial_value = (T_max_delay - T_delay)/T_max
 N_overflows = (ceil)(T_delay / T_max_delay)
 Timer_initial_value = 2^n - (T_delay / T_tick) / N_overflows
 */
-
+#include "timer.h"
 void Timer0_init(TimerMode mode)
 {
     //Normal Mode
@@ -108,11 +108,6 @@ void Timer0_normalMode_squareWave()
     TCCR0 &= ~( 1 << COM00 );
     TCCR0 &= ~( 1 << COM01 );
 }
-/************************************************************************/
-/*                                                                      */
-/************************************************************************/
-
-
 void Timer0_CTC_mode( CTC_mode_State State )
 {
     Timer0_init( CTC_mode );

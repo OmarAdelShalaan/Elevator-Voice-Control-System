@@ -17,7 +17,7 @@
 #include "../ECUAL/KeyPad_Driver/keypad.h"
 #include "../ECUAL/SevenSegment_Driver/SevenSegment.h"
 #include "../MCAL/UART_Driver/UART.h"
-#include "../FIFO_Driver/fifo_buf.h"
+
 
 #define KeyPad_Dir portc
 

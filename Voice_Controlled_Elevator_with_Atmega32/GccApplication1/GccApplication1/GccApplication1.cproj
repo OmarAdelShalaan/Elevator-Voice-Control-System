@@ -163,9 +163,6 @@
     <Compile Include="ECUAL\KeyPad_Driver\keypad.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="ECUAL\LCD_Driver\LCD.c">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="ECUAL\LCD_Driver\LCD.h">
       <SubType>compile</SubType>
     </Compile>
@@ -173,9 +170,6 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="ECUAL\SevenSegment_Driver\SevenSegment.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="FIFO_Driver\fifo_buf.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="FIFO_Driver\fifo_buf.h">

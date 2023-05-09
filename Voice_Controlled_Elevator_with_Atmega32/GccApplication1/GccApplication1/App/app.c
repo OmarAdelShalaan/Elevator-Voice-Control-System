@@ -13,8 +13,6 @@ uint16_t ElevatorFloor = 0;
 volatile uint8_t UART_RX = 'e';
 volatile uint8_t char_KeyPad = 0;
 /********************************************************/
-FIFO_BUF_t * fifo_buf;
-int buf[5];
 void APP_init()
 {
 	/********************************************************/
@@ -33,9 +31,6 @@ void APP_init()
 	UART_SendString("Voice_Controlled_Elevator \r");
 	UART_SendString("Graduation Project \r");
 	/********************************************************/
-	FIFO_BUF_init(fifo_buf,buf,5);
-	/********************************************************/
-
 }
 void APP_start()
 {
@@ -44,12 +39,10 @@ void APP_start()
 		Keypad_controll();
 		if( UART_RX != 'e')
 		{
-			//enqueue(fifo_buf,( UART_RX -'0'));
 			/*************************************************************/
 			UART_SendString("\rYou Enter with Voice : ");
 			USART_Transmit(UART_RX);
 			USART_Transmit('\r');
-			
 			/*************************************************************/
 			Controlled_Elevator(UART_RX - '0');
 			UART_controll();
@@ -57,23 +50,13 @@ void APP_start()
 		}
 		if( char_KeyPad != '@')
 		{
-			//enqueue(fifo_buf,( char_KeyPad - '0'));
 			/*************************************************************/
 			UART_SendString("\rYou Enter with Keypad : ");
 			USART_Transmit(char_KeyPad);
 			USART_Transmit('\r');
-			
 			/*************************************************************/
 			Controlled_Elevator(char_KeyPad - '0' );
 		}	
-// 		if (isFull(fifo_buf))
-// 		{
-// 			USART_Transmit('\r');
-// 			USART_Transmit('\r');
-// 			UART_SendString("full");
-// 			USART_Transmit('\r');
-// 			USART_Transmit('\r');
-// 		}
 	}
 }
 void Controlled_Elevator(uint16_t floorplan)
@@ -125,10 +108,6 @@ void Controlled_Elevator(uint16_t floorplan)
 
 void Keypad_controll(){	
 	KeyPad_read( KeyPad_Dir,(uint8_t *)&char_KeyPad);
-	if ( char_KeyPad != '@')
-	{
-		//enqueue(fifo_buf,( char_KeyPad - '0'));
-	}
 }
 void UART_controll()
 {
@@ -142,6 +121,5 @@ ISR(EXT_INT_0)
 {
 	cli();
 	UART_RX = USART_Receive();
-	//enqueue(fifo_buf,( UART_RX -'0'));
 	sei();
 }

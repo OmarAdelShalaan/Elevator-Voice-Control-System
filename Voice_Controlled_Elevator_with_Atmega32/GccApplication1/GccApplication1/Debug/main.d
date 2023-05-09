@@ -14,9 +14,7 @@ main.d main.o: .././main.c .././App/app.h \
  .././App/../ECUAL/SevenSegment_Driver/SevenSegment.h \
  .././App/../ECUAL/SevenSegment_Driver/../../MCAL/DIO_Driver/DIO.h \
  .././App/../MCAL/UART_Driver/UART.h \
- .././App/../MCAL/UART_Driver/../../Utilities/register.h \
- .././App/../FIFO_Driver/fifo_buf.h \
- .././App/../FIFO_Driver/../Utilities/Platform_Types.h
+ .././App/../MCAL/UART_Driver/../../Utilities/register.h
 
 .././App/app.h:
 
@@ -51,7 +49,3 @@ main.d main.o: .././main.c .././App/app.h \
 .././App/../MCAL/UART_Driver/UART.h:
 
 .././App/../MCAL/UART_Driver/../../Utilities/register.h:
-
-.././App/../FIFO_Driver/fifo_buf.h:
-
-.././App/../FIFO_Driver/../Utilities/Platform_Types.h:

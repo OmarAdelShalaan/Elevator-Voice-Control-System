@@ -15,7 +15,4 @@ void delay();
 void delay_us(uint16_t Time_delay);
 void delay_ms(uint32_t Time_delay);
 
-
-
-
 #endif /* DELAY_H_ */

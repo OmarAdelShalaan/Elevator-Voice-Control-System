@@ -56,9 +56,7 @@ C_SRCS +=  \
 ../ECUAL/Delay_Driver/delay.c \
 ../ECUAL/External_Interrupt/interrupt.c \
 ../ECUAL/KeyPad_Driver/keypad.c \
-../ECUAL/LCD_Driver/LCD.c \
 ../ECUAL/SevenSegment_Driver/SevenSegment.c \
-../FIFO_Driver/fifo_buf.c \
 ../main.c \
 ../MCAL/DIO_Driver/DIO.c \
 ../MCAL/Timer_Driver/timer.c \
@@ -77,9 +75,7 @@ ECUAL/DCMotor_Driver/DCmotor.o \
 ECUAL/Delay_Driver/delay.o \
 ECUAL/External_Interrupt/interrupt.o \
 ECUAL/KeyPad_Driver/keypad.o \
-ECUAL/LCD_Driver/LCD.o \
 ECUAL/SevenSegment_Driver/SevenSegment.o \
-FIFO_Driver/fifo_buf.o \
 main.o \
 MCAL/DIO_Driver/DIO.o \
 MCAL/Timer_Driver/timer.o \
@@ -91,9 +87,7 @@ ECUAL/DCMotor_Driver/DCmotor.o \
 ECUAL/Delay_Driver/delay.o \
 ECUAL/External_Interrupt/interrupt.o \
 ECUAL/KeyPad_Driver/keypad.o \
-ECUAL/LCD_Driver/LCD.o \
 ECUAL/SevenSegment_Driver/SevenSegment.o \
-FIFO_Driver/fifo_buf.o \
 main.o \
 MCAL/DIO_Driver/DIO.o \
 MCAL/Timer_Driver/timer.o \
@@ -105,9 +99,7 @@ ECUAL/DCMotor_Driver/DCmotor.d \
 ECUAL/Delay_Driver/delay.d \
 ECUAL/External_Interrupt/interrupt.d \
 ECUAL/KeyPad_Driver/keypad.d \
-ECUAL/LCD_Driver/LCD.d \
 ECUAL/SevenSegment_Driver/SevenSegment.d \
-FIFO_Driver/fifo_buf.d \
 main.d \
 MCAL/DIO_Driver/DIO.d \
 MCAL/Timer_Driver/timer.d \
@@ -119,9 +111,7 @@ ECUAL/DCMotor_Driver/DCmotor.d \
 ECUAL/Delay_Driver/delay.d \
 ECUAL/External_Interrupt/interrupt.d \
 ECUAL/KeyPad_Driver/keypad.d \
-ECUAL/LCD_Driver/LCD.d \
 ECUAL/SevenSegment_Driver/SevenSegment.d \
-FIFO_Driver/fifo_buf.d \
 main.d \
 MCAL/DIO_Driver/DIO.d \
 MCAL/Timer_Driver/timer.d \
@@ -176,21 +166,7 @@ ECUAL/KeyPad_Driver/keypad.o: ../ECUAL/KeyPad_Driver/keypad.c
 	@echo Finished building: $<
 	
 
-ECUAL/LCD_Driver/LCD.o: ../ECUAL/LCD_Driver/LCD.c
-	@echo Building file: $<
-	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\include"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\gcc\dev\atmega32" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
-	@echo Finished building: $<
-	
-
 ECUAL/SevenSegment_Driver/SevenSegment.o: ../ECUAL/SevenSegment_Driver/SevenSegment.c
-	@echo Building file: $<
-	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\include"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\gcc\dev\atmega32" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
-	@echo Finished building: $<
-	
-
-FIFO_Driver/fifo_buf.o: ../FIFO_Driver/fifo_buf.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
 	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\include"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\gcc\dev\atmega32" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 

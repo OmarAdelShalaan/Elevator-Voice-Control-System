@@ -12,11 +12,7 @@ ECUAL\External_Interrupt\interrupt.c
 
 ECUAL\KeyPad_Driver\keypad.c
 
-ECUAL\LCD_Driver\LCD.c
-
 ECUAL\SevenSegment_Driver\SevenSegment.c
-
-FIFO_Driver\fifo_buf.c
 
 main.c
 
