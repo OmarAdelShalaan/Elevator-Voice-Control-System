@@ -46,3 +46,6 @@
 
 [![video](./Elevator_Voice_Control_System_with_Arduino/Elevator_Voice_Control_System.jpg)](https://drive.google.com/file/d/1uxXVeBpGNxIKDnRkVT1cfsh58tJjX1Al/view?usp=sharing)
 
+## Presentian
+[presentian](./presentian)
+[presentian](./presentian/Voice-controlled elevator_2.pptx)
