@@ -9,15 +9,12 @@
 #ifndef APP_H_
 #define APP_H_
 
-
-
 #include "../ECUAL/DCMotor_Driver/DCmotor.h"
 #include "../ECUAL/Delay_Driver/delay.h"
 #include "../ECUAL/External_Interrupt/interrupt.h"
 #include "../ECUAL/KeyPad_Driver/keypad.h"
 #include "../ECUAL/SevenSegment_Driver/SevenSegment.h"
 #include "../MCAL/UART_Driver/UART.h"
-
 
 #define KeyPad_Dir portc
 

@@ -10,7 +10,6 @@
 #define UART_H_
 
 #include "../../Utilities/register.h"
-
 /*****************************************/
 // Register A UCSRA
 #define RXC   7 
@@ -41,14 +40,10 @@
 #define UCPOL 0
 // Registers – UBRRL and UBRRH
 #define URSEL 7
-
 /*****************************************/
-
 void USART_Init( unsigned int baud );
 void USART_Transmit( unsigned char data );
 unsigned char USART_Receive( void );
 void UART_SendString(char * str);
-
-
 
 #endif /* UART_H_ */

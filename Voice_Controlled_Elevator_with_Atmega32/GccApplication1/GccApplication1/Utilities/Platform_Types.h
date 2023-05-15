@@ -9,8 +9,6 @@
 #ifndef PLATFORM_TYPES_H_
 #define PLATFORM_TYPES_H_
 
-
-
 typedef unsigned char         uint8_t;          /*           0 .. 255             */
 typedef signed char           sint8_t;          /*        -128 .. +127            */
 typedef unsigned short        uint16_t;         /*           0 .. 65535           */
@@ -29,6 +27,5 @@ typedef enum
     False = 0,
     True = 1
 } bool;
-
 
 #endif /* PLATFORM_TYPES_H_ */

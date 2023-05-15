@@ -40,6 +40,4 @@ void EXT_INT0_sense_control(Interrupt_Sense_Control);
 void EXT_INT1_sense_control(Interrupt_Sense_Control);
 void EXT_INT2_sense_control(Interrupt_Sense_Control);
 
-
-
 #endif /* INTERRUPT_H_ */

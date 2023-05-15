@@ -7,7 +7,6 @@
 
 #include "keypad.h"
 
-
 void KeyPad_init(portx KeyPad_Dir)
 {
     // void DIO_init_nibble( portx PORTX, nibble upper_lower, dirction in_out );
@@ -19,7 +18,6 @@ void KeyPad_init(portx KeyPad_Dir)
     //KeyPad_PORT = 0xFF;
     DIO_write_port( KeyPad_Dir, 0xFF);
 }
-
 void KeyPad_read(portx KeyPad_Dir,uint8_t *char_KeyPad)
 {
     uint8_t row = 0;
@@ -54,7 +52,6 @@ void KeyPad_read(portx KeyPad_Dir,uint8_t *char_KeyPad)
     }
     *char_KeyPad = '@';
 }
-
 uint8_t KeyPad_pressed(uint8_t row, uint8_t column)
 {
     switch(row)
@@ -107,6 +104,5 @@ uint8_t KeyPad_pressed(uint8_t row, uint8_t column)
         case 0 :
             return '\\';
         }
-
     }
 }

@@ -11,12 +11,9 @@
 
 #include "../../MCAL/DIO_Driver/DIO.h"
 
-
 void DCMOTOR_Init(portx PORTX, uint8_t pinUP, uint8_t pinDown);
 void DCMOTOR_up(portx PORTX, uint8_t pinUP,uint8_t pinDown);
 void DCMotor_down(portx PORTX, uint8_t pinUP,uint8_t pinDown);
 void DCMotor_Stop(portx PORTX, uint8_t pinUP,uint8_t pinDown);
-
-
 
 #endif /* DCMOTOR_H_ */

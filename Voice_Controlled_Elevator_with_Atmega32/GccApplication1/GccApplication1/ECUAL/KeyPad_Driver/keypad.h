@@ -26,6 +26,4 @@ void KeyPad_init(portx KeyPad_Dir);
 void KeyPad_read(portx KeyPad_Dir,uint8_t *char_KeyPad);
 uint8_t KeyPad_pressed(uint8_t row, uint8_t column);
 
-
-
 #endif /* KEYPAD_H_ */
