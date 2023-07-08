@@ -50,8 +50,8 @@
 [![presentian](./voice_controlled_Elecator.jpg)](https://docs.google.com/presentation/d/1tBEmBJsXVJXH6N50-ZL4yP22_h5BTOXLZ_CwDtim-ag/edit#slide=id.p1)
 
 ## Book 
-[![](./book)](https://drive.google.com/file/d/14fj_cI9orEDMI5ZTQLG2cdmxQ7__jKWL/view)
+[![](./book.jpg)](https://drive.google.com/file/d/14fj_cI9orEDMI5ZTQLG2cdmxQ7__jKWL/view)
 
 ## Book and  Book Cover
-[Book Link](https://drive.google.com/file/d/14fj_cI9orEDMI5ZTQLG2cdmxQ7__jKWL/view)
-[Book Cover Link](https://drive.google.com/file/d/1bL1qE7qFWAJP65j_yolfRaUQLDAe3dMS/view)
+	- [Book Link](https://drive.google.com/file/d/14fj_cI9orEDMI5ZTQLG2cdmxQ7__jKWL/view)
+	- [Book Cover Link](https://drive.google.com/file/d/1bL1qE7qFWAJP65j_yolfRaUQLDAe3dMS/view)
