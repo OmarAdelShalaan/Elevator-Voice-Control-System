@@ -48,3 +48,9 @@
 
 ## Presentian
 [![presentian](./voice_controlled_Elecator.jpg)](https://docs.google.com/presentation/d/1tBEmBJsXVJXH6N50-ZL4yP22_h5BTOXLZ_CwDtim-ag/edit#slide=id.p1)
+
+## Book 
+[Link](https://drive.google.com/drive/u/0/folders/10-HV7YRNumDzPioD0gXMF4IieVxMezwp)
+
+## Book Cover
+[Link](https://drive.google.com/drive/u/0/folders/10-HV7YRNumDzPioD0gXMF4IieVxMezwp)
